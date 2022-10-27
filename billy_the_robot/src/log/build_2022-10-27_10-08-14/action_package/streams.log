@@ -1,0 +1,224 @@
+[0.035s] Invoking command in '/home/ubuntu/Documents/billy_the_robot/src/build/action_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/Documents/billy_the_robot/src/action_package -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/billy_the_robot/src/install/action_package
+[0.229s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.574s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.771s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.932s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.940s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.966s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.075s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.754s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.158s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.606s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.638s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[2.642s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.694s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[2.695s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.695s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.695s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.723s] -- Found PythonExtra: .so  
+[2.844s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.848s] -- Configured cppcheck include dirs: 
+[2.848s] -- Configured cppcheck exclude dirs and/or files: 
+[2.861s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.891s] -- Added test 'lint_cmake' to check CMake code style
+[2.907s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.001s] -- Added test 'uncrustify' to check C / C++ code style
+[3.001s] -- Configured uncrustify additional arguments: 
+[3.009s] -- Added test 'xmllint' to check XML markup files
+[3.028s] -- Configuring done
+[3.096s] -- Generating done
+[3.108s] -- Build files have been written to: /home/ubuntu/Documents/billy_the_robot/src/build/action_package
+[3.148s] Invoked command in '/home/ubuntu/Documents/billy_the_robot/src/build/action_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/Documents/billy_the_robot/src/action_package -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/billy_the_robot/src/install/action_package
+[3.149s] Invoking command in '/home/ubuntu/Documents/billy_the_robot/src/build/action_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/billy_the_robot/src/build/action_package -- -j1 -l1
+[3.291s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.546s] [  3%] Built target action_package__cpp
+[4.558s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.013s] [  9%] [32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_package/action/fibonacci__type_support.cpp.o[0m
+[6.219s] [ 12%] [32m[1mLinking CXX shared library libaction_package__rosidl_typesupport_cpp.so[0m
+[6.341s] [ 12%] Built target action_package__rosidl_typesupport_cpp
+[6.352s] [ 16%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.020s] [ 19%] [32mBuilding C object CMakeFiles/action_package__rosidl_generator_c.dir/rosidl_generator_c/action_package/action/detail/fibonacci__functions.c.o[0m
+[7.385s] [ 22%] [32m[1mLinking C shared library libaction_package__rosidl_generator_c.so[0m
+[7.467s] [ 22%] Built target action_package__rosidl_generator_c
+[7.478s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.119s] [ 29%] [32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_package/action/detail/fibonacci__type_support_c.cpp.o[0m
+[8.761s] [ 32%] [32m[1mLinking CXX shared library libaction_package__rosidl_typesupport_fastrtps_c.so[0m
+[8.923s] [ 32%] Built target action_package__rosidl_typesupport_fastrtps_c
+[8.936s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.579s] [ 38%] [32mBuilding C object CMakeFiles/action_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_package/action/detail/fibonacci__type_support.c.o[0m
+[9.708s] [ 41%] [32m[1mLinking C shared library libaction_package__rosidl_typesupport_introspection_c.so[0m
+[9.749s] [ 41%] Built target action_package__rosidl_typesupport_introspection_c
+[9.761s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.265s] [ 48%] [32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_package/action/fibonacci__type_support.cpp.o[0m
+[10.377s] [ 51%] [32m[1mLinking CXX shared library libaction_package__rosidl_typesupport_c.so[0m
+[10.467s] [ 51%] Built target action_package__rosidl_typesupport_c
+[10.482s] [ 54%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.110s] [ 58%] [32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_package/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[12.109s] [ 61%] [32m[1mLinking CXX shared library libaction_package__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.328s] [ 61%] Built target action_package__rosidl_typesupport_fastrtps_cpp
+[12.341s] [ 64%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.863s] [ 67%] [32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_package/action/detail/fibonacci__type_support.cpp.o[0m
+[13.842s] [ 70%] [32m[1mLinking CXX shared library libaction_package__rosidl_typesupport_introspection_cpp.so[0m
+[13.981s] [ 70%] Built target action_package__rosidl_typesupport_introspection_cpp
+[14.051s] [ 70%] Built target action_package
+[14.114s] [ 70%] Built target ament_cmake_python_copy_action_package
+[14.537s] running egg_info
+[14.539s] creating action_package.egg-info
+[14.540s] writing action_package.egg-info/PKG-INFO
+[14.541s] writing dependency_links to action_package.egg-info/dependency_links.txt
+[14.541s] writing top-level names to action_package.egg-info/top_level.txt
+[14.542s] writing manifest file 'action_package.egg-info/SOURCES.txt'
+[14.547s] reading manifest file 'action_package.egg-info/SOURCES.txt'
+[14.548s] writing manifest file 'action_package.egg-info/SOURCES.txt'
+[14.592s] [ 70%] Built target ament_cmake_python_build_action_package_egg
+[14.613s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.917s] [ 74%] Built target action_package__py
+[15.974s] [ 77%] [32mBuilding C object CMakeFiles/action_package__rosidl_generator_py.dir/rosidl_generator_py/action_package/action/_fibonacci_s.c.o[0m
+[16.353s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/action_package/libaction_package__rosidl_generator_py.so[0m
+[16.419s] [ 80%] Built target action_package__rosidl_generator_py
+[16.481s] [ 83%] [32mBuilding C object CMakeFiles/action_package__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_package/_action_package_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.708s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/action_package/action_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.750s] [ 87%] Built target action_package__rosidl_typesupport_fastrtps_c__pyext
+[16.773s] [ 90%] [32mBuilding C object CMakeFiles/action_package__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_package/_action_package_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.971s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/action_package/action_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.066s] [ 93%] Built target action_package__rosidl_typesupport_introspection_c__pyext
+[17.095s] [ 96%] [32mBuilding C object CMakeFiles/action_package__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_package/_action_package_s.ep.rosidl_typesupport_c.c.o[0m
+[17.310s] [100%] [32m[1mLinking C shared library rosidl_generator_py/action_package/action_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.357s] [100%] Built target action_package__rosidl_typesupport_c__pyext
+[17.402s] Invoked command in '/home/ubuntu/Documents/billy_the_robot/src/build/action_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/billy_the_robot/src/build/action_package -- -j1 -l1
+[17.595s] Invoking command in '/home/ubuntu/Documents/billy_the_robot/src/build/action_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/billy_the_robot/src/build/action_package
+[17.619s] -- Install configuration: ""
+[17.622s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/ament_index/resource_index/rosidl_interfaces/action_package
+[17.622s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package
+[17.624s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/msg
+[17.625s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/msg/rosidl_generator_c__visibility_control.h
+[17.626s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action
+[17.627s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail
+[17.628s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__functions.h
+[17.631s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__struct.h
+[17.632s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__type_support.h
+[17.632s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__functions.c
+[17.634s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/fibonacci.h
+[17.635s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/environment/library_path.sh
+[17.638s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/environment/library_path.dsv
+[17.639s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_generator_c.so
+[17.641s] -- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_generator_c.so" to ""
+[17.642s] -- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package
+[17.642s] -- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/msg
+[17.642s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.644s] -- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action
+[17.646s] -- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail
+[17.648s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[17.648s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_fastrtps_c.so
+[17.653s] -- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_fastrtps_c.so" to ""
+[17.656s] -- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package
+[17.656s] -- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/msg
+[17.659s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.659s] -- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action
+[17.662s] -- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail
+[17.662s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__type_support.c
+[17.665s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[17.666s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_introspection_c.so
+[17.670s] -- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_introspection_c.so" to ""
+[17.673s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_c.so
+[17.674s] -- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_c.so" to ""
+[17.677s] -- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package
+[17.677s] -- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action
+[17.677s] -- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail
+[17.678s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__builder.hpp
+[17.678s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__struct.hpp
+[17.678s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__traits.hpp
+[17.679s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/fibonacci.hpp
+[17.683s] -- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package
+[17.684s] -- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/msg
+[17.684s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.684s] -- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action
+[17.686s] -- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail
+[17.686s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[17.687s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/dds_fastrtps
+[17.689s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_fastrtps_cpp.so
+[17.692s] -- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_fastrtps_cpp.so" to ""
+[17.692s] -- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package
+[17.692s] -- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action
+[17.693s] -- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail
+[17.695s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[17.696s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__type_support.cpp
+[17.698s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_introspection_cpp.so
+[17.699s] -- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_introspection_cpp.so" to ""
+[17.700s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_cpp.so
+[17.701s] -- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_cpp.so" to ""
+[17.703s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/environment/pythonpath.sh
+[17.704s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/environment/pythonpath.dsv
+[17.706s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package-0.0.0-py3.10.egg-info
+[17.706s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package-0.0.0-py3.10.egg-info/dependency_links.txt
+[17.707s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package-0.0.0-py3.10.egg-info/SOURCES.txt
+[17.710s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package-0.0.0-py3.10.egg-info/PKG-INFO
+[17.710s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package-0.0.0-py3.10.egg-info/top_level.txt
+[17.711s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package
+[17.711s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/libaction_package__rosidl_generator_py.so
+[17.712s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[17.712s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/_action_package_s.ep.rosidl_typesupport_fastrtps_c.c
+[17.718s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action
+[17.718s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action/__init__.py
+[17.719s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action/_fibonacci.py
+[17.719s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action/_fibonacci_s.c
+[17.720s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/__init__.py
+[17.720s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/_action_package_s.ep.rosidl_typesupport_c.c
+[17.721s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/_action_package_s.ep.rosidl_typesupport_introspection_c.c
+[17.721s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[17.721s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[17.858s] Listing '/home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package'...
+[17.860s] Compiling '/home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/__init__.py'...
+[17.860s] Listing '/home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action'...
+[17.860s] Compiling '/home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action/__init__.py'...
+[17.860s] Compiling '/home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action/_fibonacci.py'...
+[17.886s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[17.889s] -- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[17.890s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[17.891s] -- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[17.896s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[17.897s] -- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[17.900s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_generator_py.so
+[17.901s] -- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_generator_py.so" to ""
+[17.907s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/action/Fibonacci.idl
+[17.911s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/action/Fibonacci.action
+[17.913s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/ament_index/resource_index/package_run_dependencies/action_package
+[17.915s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/ament_index/resource_index/parent_prefix_path/action_package
+[17.917s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/environment/ament_prefix_path.sh
+[17.923s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/environment/ament_prefix_path.dsv
+[17.926s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/environment/path.sh
+[17.927s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/environment/path.dsv
+[17.930s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/local_setup.bash
+[17.930s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/local_setup.sh
+[17.931s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/local_setup.zsh
+[17.931s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/local_setup.dsv
+[17.935s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/package.dsv
+[17.936s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/ament_index/resource_index/packages/action_package
+[17.938s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/export_action_package__rosidl_generator_cExport.cmake
+[17.939s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/export_action_package__rosidl_generator_cExport-noconfig.cmake
+[17.941s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/export_action_package__rosidl_typesupport_fastrtps_cExport.cmake
+[17.942s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/export_action_package__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[17.943s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_introspection_cExport.cmake
+[17.943s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.944s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_cExport.cmake
+[17.944s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_cExport-noconfig.cmake
+[17.945s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/export_action_package__rosidl_generator_cppExport.cmake
+[17.946s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/export_action_package__rosidl_typesupport_fastrtps_cppExport.cmake
+[17.946s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/export_action_package__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[17.947s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_introspection_cppExport.cmake
+[17.947s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.948s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_cppExport.cmake
+[17.949s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_cppExport-noconfig.cmake
+[17.949s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/export_action_package__rosidl_generator_pyExport.cmake
+[17.950s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/export_action_package__rosidl_generator_pyExport-noconfig.cmake
+[17.950s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/rosidl_cmake-extras.cmake
+[17.951s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.951s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.952s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/ament_cmake_export_libraries-extras.cmake
+[17.952s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/ament_cmake_export_targets-extras.cmake
+[17.953s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.954s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.954s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_packageConfig.cmake
+[17.955s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_packageConfig-version.cmake
+[17.955s] -- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/package.xml
+[17.961s] Invoked command in '/home/ubuntu/Documents/billy_the_robot/src/build/action_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/billy_the_robot/src/build/action_package

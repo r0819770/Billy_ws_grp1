@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+billy_the_robot/__init__.py
+billy_the_robot/my_billy_node.py
+billy_the_robot/my_billy_sub.py
+build/billy_the_robot/billy_the_robot.egg-info/PKG-INFO
+build/billy_the_robot/billy_the_robot.egg-info/SOURCES.txt
+build/billy_the_robot/billy_the_robot.egg-info/dependency_links.txt
+build/billy_the_robot/billy_the_robot.egg-info/entry_points.txt
+build/billy_the_robot/billy_the_robot.egg-info/requires.txt
+build/billy_the_robot/billy_the_robot.egg-info/top_level.txt
+build/billy_the_robot/billy_the_robot.egg-info/zip-safe
+resource/billy_the_robot
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,6 @@
+source;share/billy_the_robot/hook/pythonpath.ps1
+source;share/billy_the_robot/hook/pythonpath.dsv
+source;share/billy_the_robot/hook/pythonpath.sh
+source;share/billy_the_robot/hook/ament_prefix_path.ps1
+source;share/billy_the_robot/hook/ament_prefix_path.dsv
+source;share/billy_the_robot/hook/ament_prefix_path.sh

@@ -1,0 +1,28 @@
+running egg_info
+writing build/billy_the_robot/billy_the_robot.egg-info/PKG-INFO
+writing dependency_links to build/billy_the_robot/billy_the_robot.egg-info/dependency_links.txt
+writing entry points to build/billy_the_robot/billy_the_robot.egg-info/entry_points.txt
+writing requirements to build/billy_the_robot/billy_the_robot.egg-info/requires.txt
+writing top-level names to build/billy_the_robot/billy_the_robot.egg-info/top_level.txt
+reading manifest file 'build/billy_the_robot/billy_the_robot.egg-info/SOURCES.txt'
+writing manifest file 'build/billy_the_robot/billy_the_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying billy_the_robot/my_billy_node.py -> /home/ubuntu/Documents/billy_the_robot/build/billy_the_robot/build/lib/billy_the_robot
+copying billy_the_robot/my_billy_sub.py -> /home/ubuntu/Documents/billy_the_robot/build/billy_the_robot/build/lib/billy_the_robot
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/ubuntu/Documents/billy_the_robot/build/billy_the_robot/build/lib/billy_the_robot/my_billy_node.py -> /home/ubuntu/Documents/billy_the_robot/install/billy_the_robot/lib/python3.10/site-packages/billy_the_robot
+copying /home/ubuntu/Documents/billy_the_robot/build/billy_the_robot/build/lib/billy_the_robot/my_billy_sub.py -> /home/ubuntu/Documents/billy_the_robot/install/billy_the_robot/lib/python3.10/site-packages/billy_the_robot
+byte-compiling /home/ubuntu/Documents/billy_the_robot/install/billy_the_robot/lib/python3.10/site-packages/billy_the_robot/my_billy_node.py to my_billy_node.cpython-310.pyc
+byte-compiling /home/ubuntu/Documents/billy_the_robot/install/billy_the_robot/lib/python3.10/site-packages/billy_the_robot/my_billy_sub.py to my_billy_sub.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/ubuntu/Documents/billy_the_robot/install/billy_the_robot/lib/python3.10/site-packages/billy_the_robot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/billy_the_robot/billy_the_robot.egg-info to /home/ubuntu/Documents/billy_the_robot/install/billy_the_robot/lib/python3.10/site-packages/billy_the_robot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/ubuntu/Documents/billy_the_robot/install/billy_the_robot/lib/billy_the_robot
+Installing talker script to /home/ubuntu/Documents/billy_the_robot/install/billy_the_robot/lib/billy_the_robot
+writing list of installed files to '/home/ubuntu/Documents/billy_the_robot/build/billy_the_robot/install.log'

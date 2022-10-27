@@ -1,0 +1,411 @@
+[0.000000] (-) TimerEvent: {}
+[0.003085] (action_package) JobQueued: {'identifier': 'action_package', 'dependencies': OrderedDict()}
+[0.003206] (action_package) JobStarted: {'identifier': 'action_package'}
+[0.035617] (action_package) JobProgress: {'identifier': 'action_package', 'progress': 'cmake'}
+[0.037553] (action_package) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/Documents/billy_the_robot/src/action_package', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/billy_the_robot/src/install/action_package'], 'cwd': '/home/ubuntu/Documents/billy_the_robot/src/build/action_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('LC_TIME', 'nl_BE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Documents/billy_the_robot/src/action_package'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_BE.UTF-8'), ('SYSTEMD_EXEC_PID', '2417'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-virtual-machine:@/tmp/.ICE-unix/1773,unix/ubuntu-virtual-machine:/tmp/.ICE-unix/1773'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_BE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5ae1c5fc_4b8e_47d7_94a7_750b8763583e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_BE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.V8CDU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_BE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_BE.UTF-8'), ('LC_IDENTIFICATION', 'nl_BE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Documents/billy_the_robot/src/build/action_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_BE.UTF-8'), ('LC_PAPER', 'nl_BE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098365] (-) TimerEvent: {}
+[0.199502] (-) TimerEvent: {}
+[0.231972] (action_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300625] (-) TimerEvent: {}
+[0.401497] (-) TimerEvent: {}
+[0.502131] (-) TimerEvent: {}
+[0.576725] (action_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.602422] (-) TimerEvent: {}
+[0.703840] (-) TimerEvent: {}
+[0.773969] (action_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.804461] (-) TimerEvent: {}
+[0.904961] (-) TimerEvent: {}
+[0.934879] (action_package) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.942957] (action_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.969207] (action_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.005495] (-) TimerEvent: {}
+[1.078477] (action_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.106723] (-) TimerEvent: {}
+[1.208588] (-) TimerEvent: {}
+[1.309554] (-) TimerEvent: {}
+[1.415394] (-) TimerEvent: {}
+[1.516171] (-) TimerEvent: {}
+[1.616833] (-) TimerEvent: {}
+[1.717530] (-) TimerEvent: {}
+[1.756982] (action_package) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.819478] (-) TimerEvent: {}
+[1.921020] (-) TimerEvent: {}
+[2.027614] (-) TimerEvent: {}
+[2.128670] (-) TimerEvent: {}
+[2.161331] (action_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.229626] (-) TimerEvent: {}
+[2.338573] (-) TimerEvent: {}
+[2.439589] (-) TimerEvent: {}
+[2.540579] (-) TimerEvent: {}
+[2.609190] (action_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.640648] (action_package) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[2.640890] (-) TimerEvent: {}
+[2.644801] (action_package) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.697234] (action_package) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[2.697849] (action_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.698119] (action_package) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.698310] (action_package) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.726168] (action_package) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.741605] (-) TimerEvent: {}
+[2.842602] (-) TimerEvent: {}
+[2.846800] (action_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.850778] (action_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.851217] (action_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.863851] (action_package) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.893554] (action_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.910519] (action_package) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.943638] (-) TimerEvent: {}
+[3.003696] (action_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.004215] (action_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.011479] (action_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.031164] (action_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.043916] (-) TimerEvent: {}
+[3.099376] (action_package) StdoutLine: {'line': b'-- Generating done\n'}
+[3.111216] (action_package) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/Documents/billy_the_robot/src/build/action_package\n'}
+[3.144864] (-) TimerEvent: {}
+[3.151068] (action_package) CommandEnded: {'returncode': 0}
+[3.151693] (action_package) JobProgress: {'identifier': 'action_package', 'progress': 'build'}
+[3.151736] (action_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Documents/billy_the_robot/src/build/action_package', '--', '-j1', '-l1'], 'cwd': '/home/ubuntu/Documents/billy_the_robot/src/build/action_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('LC_TIME', 'nl_BE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Documents/billy_the_robot/src/action_package'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_BE.UTF-8'), ('SYSTEMD_EXEC_PID', '2417'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-virtual-machine:@/tmp/.ICE-unix/1773,unix/ubuntu-virtual-machine:/tmp/.ICE-unix/1773'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_BE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5ae1c5fc_4b8e_47d7_94a7_750b8763583e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_BE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.V8CDU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_BE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_BE.UTF-8'), ('LC_IDENTIFICATION', 'nl_BE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Documents/billy_the_robot/src/build/action_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_BE.UTF-8'), ('LC_PAPER', 'nl_BE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.247638] (-) TimerEvent: {}
+[3.294414] (action_package) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.348681] (-) TimerEvent: {}
+[3.451929] (-) TimerEvent: {}
+[3.557124] (-) TimerEvent: {}
+[3.668678] (-) TimerEvent: {}
+[3.771471] (-) TimerEvent: {}
+[3.879635] (-) TimerEvent: {}
+[3.984725] (-) TimerEvent: {}
+[4.092299] (-) TimerEvent: {}
+[4.193682] (-) TimerEvent: {}
+[4.294731] (-) TimerEvent: {}
+[4.400853] (-) TimerEvent: {}
+[4.509848] (-) TimerEvent: {}
+[4.549085] (action_package) StdoutLine: {'line': b'[  3%] Built target action_package__cpp\n'}
+[4.561026] (action_package) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.610698] (-) TimerEvent: {}
+[4.711714] (-) TimerEvent: {}
+[4.812798] (-) TimerEvent: {}
+[4.913786] (-) TimerEvent: {}
+[5.015324] (-) TimerEvent: {}
+[5.015838] (action_package) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_package/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[5.115782] (-) TimerEvent: {}
+[5.216587] (-) TimerEvent: {}
+[5.317307] (-) TimerEvent: {}
+[5.418040] (-) TimerEvent: {}
+[5.518888] (-) TimerEvent: {}
+[5.619892] (-) TimerEvent: {}
+[5.720983] (-) TimerEvent: {}
+[5.821827] (-) TimerEvent: {}
+[5.928112] (-) TimerEvent: {}
+[6.035845] (-) TimerEvent: {}
+[6.136869] (-) TimerEvent: {}
+[6.222502] (action_package) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library libaction_package__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.237393] (-) TimerEvent: {}
+[6.338875] (-) TimerEvent: {}
+[6.343787] (action_package) StdoutLine: {'line': b'[ 12%] Built target action_package__rosidl_typesupport_cpp\n'}
+[6.355043] (action_package) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.444923] (-) TimerEvent: {}
+[6.545899] (-) TimerEvent: {}
+[6.648178] (-) TimerEvent: {}
+[6.748903] (-) TimerEvent: {}
+[6.849872] (-) TimerEvent: {}
+[6.950906] (-) TimerEvent: {}
+[7.023092] (action_package) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/action_package__rosidl_generator_c.dir/rosidl_generator_c/action_package/action/detail/fibonacci__functions.c.o\x1b[0m\n'}
+[7.055890] (-) TimerEvent: {}
+[7.158014] (-) TimerEvent: {}
+[7.259044] (-) TimerEvent: {}
+[7.366682] (-) TimerEvent: {}
+[7.388371] (action_package) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libaction_package__rosidl_generator_c.so\x1b[0m\n'}
+[7.466960] (-) TimerEvent: {}
+[7.469612] (action_package) StdoutLine: {'line': b'[ 22%] Built target action_package__rosidl_generator_c\n'}
+[7.481503] (action_package) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.567940] (-) TimerEvent: {}
+[7.668977] (-) TimerEvent: {}
+[7.769943] (-) TimerEvent: {}
+[7.870986] (-) TimerEvent: {}
+[7.972020] (-) TimerEvent: {}
+[8.077221] (-) TimerEvent: {}
+[8.122516] (action_package) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_package/action/detail/fibonacci__type_support_c.cpp.o\x1b[0m\n'}
+[8.178117] (-) TimerEvent: {}
+[8.278969] (-) TimerEvent: {}
+[8.380088] (-) TimerEvent: {}
+[8.481094] (-) TimerEvent: {}
+[8.582094] (-) TimerEvent: {}
+[8.683080] (-) TimerEvent: {}
+[8.763998] (action_package) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libaction_package__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.787839] (-) TimerEvent: {}
+[8.889085] (-) TimerEvent: {}
+[8.926122] (action_package) StdoutLine: {'line': b'[ 32%] Built target action_package__rosidl_typesupport_fastrtps_c\n'}
+[8.939394] (action_package) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.990225] (-) TimerEvent: {}
+[9.091079] (-) TimerEvent: {}
+[9.192125] (-) TimerEvent: {}
+[9.293152] (-) TimerEvent: {}
+[9.398922] (-) TimerEvent: {}
+[9.500124] (-) TimerEvent: {}
+[9.582248] (action_package) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/action_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_package/action/detail/fibonacci__type_support.c.o\x1b[0m\n'}
+[9.600974] (-) TimerEvent: {}
+[9.702138] (-) TimerEvent: {}
+[9.710813] (action_package) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libaction_package__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.752222] (action_package) StdoutLine: {'line': b'[ 41%] Built target action_package__rosidl_typesupport_introspection_c\n'}
+[9.763951] (action_package) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.809212] (-) TimerEvent: {}
+[9.910092] (-) TimerEvent: {}
+[10.011206] (-) TimerEvent: {}
+[10.112161] (-) TimerEvent: {}
+[10.213225] (-) TimerEvent: {}
+[10.268174] (action_package) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_package/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[10.313418] (-) TimerEvent: {}
+[10.379711] (action_package) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libaction_package__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.418514] (-) TimerEvent: {}
+[10.470253] (action_package) StdoutLine: {'line': b'[ 51%] Built target action_package__rosidl_typesupport_c\n'}
+[10.485182] (action_package) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.519177] (-) TimerEvent: {}
+[10.620178] (-) TimerEvent: {}
+[10.721189] (-) TimerEvent: {}
+[10.822237] (-) TimerEvent: {}
+[10.927651] (-) TimerEvent: {}
+[11.029252] (-) TimerEvent: {}
+[11.112761] (action_package) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_package/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[11.130235] (-) TimerEvent: {}
+[11.231243] (-) TimerEvent: {}
+[11.332265] (-) TimerEvent: {}
+[11.433285] (-) TimerEvent: {}
+[11.534897] (-) TimerEvent: {}
+[11.636325] (-) TimerEvent: {}
+[11.736959] (-) TimerEvent: {}
+[11.838337] (-) TimerEvent: {}
+[11.961752] (-) TimerEvent: {}
+[12.062363] (-) TimerEvent: {}
+[12.112136] (action_package) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libaction_package__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.168213] (-) TimerEvent: {}
+[12.269346] (-) TimerEvent: {}
+[12.331402] (action_package) StdoutLine: {'line': b'[ 61%] Built target action_package__rosidl_typesupport_fastrtps_cpp\n'}
+[12.343660] (action_package) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.370315] (-) TimerEvent: {}
+[12.471313] (-) TimerEvent: {}
+[12.572362] (-) TimerEvent: {}
+[12.677353] (-) TimerEvent: {}
+[12.778346] (-) TimerEvent: {}
+[12.866345] (action_package) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/action_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_package/action/detail/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[12.879358] (-) TimerEvent: {}
+[12.980360] (-) TimerEvent: {}
+[13.081474] (-) TimerEvent: {}
+[13.182446] (-) TimerEvent: {}
+[13.283460] (-) TimerEvent: {}
+[13.384467] (-) TimerEvent: {}
+[13.485486] (-) TimerEvent: {}
+[13.586444] (-) TimerEvent: {}
+[13.687469] (-) TimerEvent: {}
+[13.788480] (-) TimerEvent: {}
+[13.845441] (action_package) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libaction_package__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[13.889471] (-) TimerEvent: {}
+[13.984232] (action_package) StdoutLine: {'line': b'[ 70%] Built target action_package__rosidl_typesupport_introspection_cpp\n'}
+[13.993636] (-) TimerEvent: {}
+[14.052418] (action_package) StdoutLine: {'line': b'[ 70%] Built target action_package\n'}
+[14.094069] (-) TimerEvent: {}
+[14.117321] (action_package) StdoutLine: {'line': b'[ 70%] Built target ament_cmake_python_copy_action_package\n'}
+[14.194539] (-) TimerEvent: {}
+[14.295558] (-) TimerEvent: {}
+[14.396553] (-) TimerEvent: {}
+[14.497385] (-) TimerEvent: {}
+[14.540125] (action_package) StdoutLine: {'line': b'running egg_info\n'}
+[14.542342] (action_package) StdoutLine: {'line': b'creating action_package.egg-info\n'}
+[14.543102] (action_package) StdoutLine: {'line': b'writing action_package.egg-info/PKG-INFO\n'}
+[14.543708] (action_package) StdoutLine: {'line': b'writing dependency_links to action_package.egg-info/dependency_links.txt\n'}
+[14.544206] (action_package) StdoutLine: {'line': b'writing top-level names to action_package.egg-info/top_level.txt\n'}
+[14.544702] (action_package) StdoutLine: {'line': b"writing manifest file 'action_package.egg-info/SOURCES.txt'\n"}
+[14.549914] (action_package) StdoutLine: {'line': b"reading manifest file 'action_package.egg-info/SOURCES.txt'\n"}
+[14.551183] (action_package) StdoutLine: {'line': b"writing manifest file 'action_package.egg-info/SOURCES.txt'\n"}
+[14.595526] (action_package) StdoutLine: {'line': b'[ 70%] Built target ament_cmake_python_build_action_package_egg\n'}
+[14.598473] (-) TimerEvent: {}
+[14.616015] (action_package) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[14.699487] (-) TimerEvent: {}
+[14.800588] (-) TimerEvent: {}
+[14.901534] (-) TimerEvent: {}
+[15.002578] (-) TimerEvent: {}
+[15.103589] (-) TimerEvent: {}
+[15.204619] (-) TimerEvent: {}
+[15.305602] (-) TimerEvent: {}
+[15.410967] (-) TimerEvent: {}
+[15.511571] (-) TimerEvent: {}
+[15.616547] (-) TimerEvent: {}
+[15.723696] (-) TimerEvent: {}
+[15.824597] (-) TimerEvent: {}
+[15.919622] (action_package) StdoutLine: {'line': b'[ 74%] Built target action_package__py\n'}
+[15.927362] (-) TimerEvent: {}
+[15.976801] (action_package) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/action_package__rosidl_generator_py.dir/rosidl_generator_py/action_package/action/_fibonacci_s.c.o\x1b[0m\n'}
+[16.027578] (-) TimerEvent: {}
+[16.128678] (-) TimerEvent: {}
+[16.229683] (-) TimerEvent: {}
+[16.331608] (-) TimerEvent: {}
+[16.355732] (action_package) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_package/libaction_package__rosidl_generator_py.so\x1b[0m\n'}
+[16.421869] (action_package) StdoutLine: {'line': b'[ 80%] Built target action_package__rosidl_generator_py\n'}
+[16.432761] (-) TimerEvent: {}
+[16.483876] (action_package) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/action_package__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_package/_action_package_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[16.533633] (-) TimerEvent: {}
+[16.635649] (-) TimerEvent: {}
+[16.710750] (action_package) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_package/action_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.736840] (-) TimerEvent: {}
+[16.752782] (action_package) StdoutLine: {'line': b'[ 87%] Built target action_package__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.775910] (action_package) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/action_package__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_package/_action_package_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[16.841653] (-) TimerEvent: {}
+[16.942658] (-) TimerEvent: {}
+[16.973753] (action_package) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_package/action_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.043716] (-) TimerEvent: {}
+[17.069185] (action_package) StdoutLine: {'line': b'[ 93%] Built target action_package__rosidl_typesupport_introspection_c__pyext\n'}
+[17.097792] (action_package) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/action_package__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_package/_action_package_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[17.151649] (-) TimerEvent: {}
+[17.252749] (-) TimerEvent: {}
+[17.312702] (action_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_package/action_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.353719] (-) TimerEvent: {}
+[17.360011] (action_package) StdoutLine: {'line': b'[100%] Built target action_package__rosidl_typesupport_c__pyext\n'}
+[17.401905] (action_package) CommandEnded: {'returncode': 0}
+[17.454674] (-) TimerEvent: {}
+[17.555834] (-) TimerEvent: {}
+[17.573795] (action_package) JobProgress: {'identifier': 'action_package', 'progress': 'install'}
+[17.597761] (action_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/Documents/billy_the_robot/src/build/action_package'], 'cwd': '/home/ubuntu/Documents/billy_the_robot/src/build/action_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('LC_TIME', 'nl_BE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Documents/billy_the_robot/src/action_package'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_BE.UTF-8'), ('SYSTEMD_EXEC_PID', '2417'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-virtual-machine:@/tmp/.ICE-unix/1773,unix/ubuntu-virtual-machine:/tmp/.ICE-unix/1773'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_BE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5ae1c5fc_4b8e_47d7_94a7_750b8763583e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_BE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.V8CDU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_BE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_BE.UTF-8'), ('LC_IDENTIFICATION', 'nl_BE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Documents/billy_the_robot/src/build/action_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_BE.UTF-8'), ('LC_PAPER', 'nl_BE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[17.622082] (action_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.624808] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/ament_index/resource_index/rosidl_interfaces/action_package\n'}
+[17.625484] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package\n'}
+[17.626826] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/msg\n'}
+[17.627759] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/msg/rosidl_generator_c__visibility_control.h\n'}
+[17.629008] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action\n'}
+[17.629910] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail\n'}
+[17.630861] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__functions.h\n'}
+[17.633770] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__struct.h\n'}
+[17.634575] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__type_support.h\n'}
+[17.635380] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__functions.c\n'}
+[17.636958] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/fibonacci.h\n'}
+[17.637852] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/environment/library_path.sh\n'}
+[17.641031] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/environment/library_path.dsv\n'}
+[17.641739] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_generator_c.so\n'}
+[17.644426] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_generator_c.so" to ""\n'}
+[17.644912] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package\n'}
+[17.645166] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/msg\n'}
+[17.645364] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[17.647223] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action\n'}
+[17.648668] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail\n'}
+[17.650794] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[17.651375] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_fastrtps_c.so\n'}
+[17.656025] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[17.656273] (-) TimerEvent: {}
+[17.658812] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package\n'}
+[17.659448] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/msg\n'}
+[17.661660] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[17.662418] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action\n'}
+[17.664479] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail\n'}
+[17.665131] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__type_support.c\n'}
+[17.668182] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[17.669140] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_introspection_c.so\n'}
+[17.673227] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.676005] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_c.so\n'}
+[17.677014] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_c.so" to ""\n'}
+[17.679979] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package\n'}
+[17.680369] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action\n'}
+[17.680557] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail\n'}
+[17.680859] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__builder.hpp\n'}
+[17.681168] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__struct.hpp\n'}
+[17.681462] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__traits.hpp\n'}
+[17.681814] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/fibonacci.hpp\n'}
+[17.683559] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package\n'}
+[17.686863] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/msg\n'}
+[17.687108] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[17.687417] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action\n'}
+[17.688816] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail\n'}
+[17.689197] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.690066] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/dds_fastrtps\n'}
+[17.692044] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_fastrtps_cpp.so\n'}
+[17.694806] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[17.695205] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package\n'}
+[17.695421] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action\n'}
+[17.695642] (action_package) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail\n'}
+[17.697655] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.698564] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/include/action_package/action_package/action/detail/fibonacci__type_support.cpp\n'}
+[17.700865] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_introspection_cpp.so\n'}
+[17.701724] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[17.703482] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_cpp.so\n'}
+[17.704424] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_typesupport_cpp.so" to ""\n'}
+[17.706403] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/environment/pythonpath.sh\n'}
+[17.706948] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/environment/pythonpath.dsv\n'}
+[17.708833] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package-0.0.0-py3.10.egg-info\n'}
+[17.709360] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[17.709763] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[17.713054] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[17.713529] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[17.714026] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package\n'}
+[17.714360] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/libaction_package__rosidl_generator_py.so\n'}
+[17.714888] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.715266] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/_action_package_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[17.720948] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action\n'}
+[17.721456] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action/__init__.py\n'}
+[17.721849] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action/_fibonacci.py\n'}
+[17.722335] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action/_fibonacci_s.c\n'}
+[17.722872] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/__init__.py\n'}
+[17.723248] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/_action_package_s.ep.rosidl_typesupport_c.c\n'}
+[17.723655] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/_action_package_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[17.724063] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.724445] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.758713] (-) TimerEvent: {}
+[17.859713] (-) TimerEvent: {}
+[17.860853] (action_package) StdoutLine: {'line': b"Listing '/home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package'...\n"}
+[17.862914] (action_package) StdoutLine: {'line': b"Compiling '/home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/__init__.py'...\n"}
+[17.863143] (action_package) StdoutLine: {'line': b"Listing '/home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action'...\n"}
+[17.863238] (action_package) StdoutLine: {'line': b"Compiling '/home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action/__init__.py'...\n"}
+[17.863327] (action_package) StdoutLine: {'line': b"Compiling '/home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action/_fibonacci.py'...\n"}
+[17.886449] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.892215] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.893083] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.894332] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.899456] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.900411] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/local/lib/python3.10/dist-packages/action_package/action_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.902854] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_generator_py.so\n'}
+[17.903779] (action_package) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/billy_the_robot/src/install/action_package/lib/libaction_package__rosidl_generator_py.so" to ""\n'}
+[17.904566] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/action/Fibonacci.idl\n'}
+[17.913646] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/action/Fibonacci.action\n'}
+[17.915638] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/ament_index/resource_index/package_run_dependencies/action_package\n'}
+[17.918476] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/ament_index/resource_index/parent_prefix_path/action_package\n'}
+[17.920188] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/environment/ament_prefix_path.sh\n'}
+[17.925820] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/environment/ament_prefix_path.dsv\n'}
+[17.928848] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/environment/path.sh\n'}
+[17.929911] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/environment/path.dsv\n'}
+[17.932781] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/local_setup.bash\n'}
+[17.933413] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/local_setup.sh\n'}
+[17.934004] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/local_setup.zsh\n'}
+[17.934456] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/local_setup.dsv\n'}
+[17.938332] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/package.dsv\n'}
+[17.939138] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/ament_index/resource_index/packages/action_package\n'}
+[17.941153] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/export_action_package__rosidl_generator_cExport.cmake\n'}
+[17.941869] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/export_action_package__rosidl_generator_cExport-noconfig.cmake\n'}
+[17.943942] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/export_action_package__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[17.945181] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/export_action_package__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[17.945897] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_introspection_cExport.cmake\n'}
+[17.946425] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[17.946991] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_cExport.cmake\n'}
+[17.947489] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[17.948107] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/export_action_package__rosidl_generator_cppExport.cmake\n'}
+[17.948772] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/export_action_package__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[17.949354] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/export_action_package__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[17.949986] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[17.950554] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[17.951146] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_cppExport.cmake\n'}
+[17.951651] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_package__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[17.952258] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/export_action_package__rosidl_generator_pyExport.cmake\n'}
+[17.952859] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/export_action_package__rosidl_generator_pyExport-noconfig.cmake\n'}
+[17.953277] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/rosidl_cmake-extras.cmake\n'}
+[17.953691] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.954199] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.954795] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.955357] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.955932] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[17.956536] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[17.957381] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_packageConfig.cmake\n'}
+[17.957943] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/cmake/action_packageConfig-version.cmake\n'}
+[17.958510] (action_package) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/billy_the_robot/src/install/action_package/share/action_package/package.xml\n'}
+[17.960815] (-) TimerEvent: {}
+[17.964008] (action_package) CommandEnded: {'returncode': 0}
+[18.064801] (-) TimerEvent: {}
+[18.168311] (-) TimerEvent: {}
+[18.269792] (-) TimerEvent: {}
+[18.344894] (action_package) JobEnded: {'identifier': 'action_package', 'rc': 0}
+[18.346389] (-) EventReactorShutdown: {}

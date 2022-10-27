@@ -1,0 +1,4 @@
+[console_scripts]
+listener = billy_the_robot.my_billy_sub:main
+talker = billy_the_robot.my_billy_node:main
+

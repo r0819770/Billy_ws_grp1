@@ -1,0 +1,27 @@
+[1.015s] Invoking command in '/home/ubuntu/Documents/billy_the_robot': PYTHONPATH=/home/ubuntu/Documents/billy_the_robot/install/billy_the_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/billy_the_robot build --build-base /home/ubuntu/Documents/billy_the_robot/build/billy_the_robot/build install --prefix /home/ubuntu/Documents/billy_the_robot/install/billy_the_robot --record /home/ubuntu/Documents/billy_the_robot/build/billy_the_robot/install.log --single-version-externally-managed
+[1.343s] running egg_info
+[1.344s] writing build/billy_the_robot/billy_the_robot.egg-info/PKG-INFO
+[1.345s] writing dependency_links to build/billy_the_robot/billy_the_robot.egg-info/dependency_links.txt
+[1.346s] writing entry points to build/billy_the_robot/billy_the_robot.egg-info/entry_points.txt
+[1.346s] writing requirements to build/billy_the_robot/billy_the_robot.egg-info/requires.txt
+[1.347s] writing top-level names to build/billy_the_robot/billy_the_robot.egg-info/top_level.txt
+[1.360s] reading manifest file 'build/billy_the_robot/billy_the_robot.egg-info/SOURCES.txt'
+[1.361s] writing manifest file 'build/billy_the_robot/billy_the_robot.egg-info/SOURCES.txt'
+[1.362s] running build
+[1.362s] running build_py
+[1.363s] copying billy_the_robot/my_billy_sub.py -> /home/ubuntu/Documents/billy_the_robot/build/billy_the_robot/build/lib/billy_the_robot
+[1.364s] running install
+[1.364s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.364s]   warnings.warn(
+[1.365s] running install_lib
+[1.367s] copying /home/ubuntu/Documents/billy_the_robot/build/billy_the_robot/build/lib/billy_the_robot/my_billy_sub.py -> /home/ubuntu/Documents/billy_the_robot/install/billy_the_robot/lib/python3.10/site-packages/billy_the_robot
+[1.370s] byte-compiling /home/ubuntu/Documents/billy_the_robot/install/billy_the_robot/lib/python3.10/site-packages/billy_the_robot/my_billy_sub.py to my_billy_sub.cpython-310.pyc
+[1.371s] running install_data
+[1.372s] running install_egg_info
+[1.375s] removing '/home/ubuntu/Documents/billy_the_robot/install/billy_the_robot/lib/python3.10/site-packages/billy_the_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.376s] Copying build/billy_the_robot/billy_the_robot.egg-info to /home/ubuntu/Documents/billy_the_robot/install/billy_the_robot/lib/python3.10/site-packages/billy_the_robot-0.0.0-py3.10.egg-info
+[1.377s] running install_scripts
+[1.405s] Installing listener script to /home/ubuntu/Documents/billy_the_robot/install/billy_the_robot/lib/billy_the_robot
+[1.406s] Installing talker script to /home/ubuntu/Documents/billy_the_robot/install/billy_the_robot/lib/billy_the_robot
+[1.407s] writing list of installed files to '/home/ubuntu/Documents/billy_the_robot/build/billy_the_robot/install.log'
+[1.499s] Invoked command in '/home/ubuntu/Documents/billy_the_robot' returned '0': PYTHONPATH=/home/ubuntu/Documents/billy_the_robot/install/billy_the_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/billy_the_robot build --build-base /home/ubuntu/Documents/billy_the_robot/build/billy_the_robot/build install --prefix /home/ubuntu/Documents/billy_the_robot/install/billy_the_robot --record /home/ubuntu/Documents/billy_the_robot/build/billy_the_robot/install.log --single-version-externally-managed
